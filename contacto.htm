@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Proyecto Práctico BootStrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Course CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <!-- HEADER -->
+      <div class="row justify-content-center color-header">
+        
+          <img src="img/Haikyuu-Logo.png" alt="Logo Haikyuu" class="img-fluid" />
+        </div>
+      
+      <!-- MENU -->
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-md navbar-light color-barra">
+          <button class="navbar-toggler color-header" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <a class="navbar-brand" href="#">
+              <img class="imagen-cambiada" id="logo" src="img/Logo-Hinata.png" alt="logo Hinata" >
+              </a>
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="equipos.html">Equipos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="#">Contacto</a>
+            </li>
+            
+          </ul>
+
+          <!--Desplegable-->
+          <div class="dropdown">
+            <button class="btn color-naranja color-barra dropdown-toggle boton-desplegable" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Enlaces Externos
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Haruichi_Furudate" target="_blank"> Autor </a>
+              <a class="dropdown-item" href="https://www.planetadelibros.com/libro-pack-haikyu-n-01-02/334582" target="_blank">Adquirir Manga</a>
+              <a class="dropdown-item" href="https://www.amazon.es/Haikyu-Los-Ases-Voley-Coleccionista/dp/B01AU00OVY"target="_blank">Adquirir Serie</a>
+            </div>
+          </div>
+
+          <nav class="navbar navbar-light color-barra">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline color-header my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+          </nav>
+          </div>
+          </nav>
+        </div>
+      </div>
+      
+      <!--Formulario-->
+
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-md-4">
+          <div class="form-group">
+            <form>
+              <label>Nombre:</label>
+              <input class="form-control" type="text" name="name">
+              <label>Apellidos</label>
+              <input class="form-control" type="text" name="lastname">
+              <label>Descripción:</label>
+              <textarea class="form-control"></textarea>
+              <div class="mt-3 text-right">
+                <input class="btn boton"  type="submit" value="Enviar" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 color">
+          <h3 class="boton p-2 imagen-tamaño ">Contacta con nosotros</h3>
+          <p>
+            Si quieres saber más sobre la serie, únete a nuestra página.
+          </p>
+        </div>
+      </div>
+
+ <!-- PIE -->
+ <div class="row pie justify-content-center p-1">
+  <div class="col-6 w-100">
+    <p class="text-center text-blak pie">
+      Web desarrollada por Juan Pedro para la práctica de bootstrap
+    </p>
+  </div>
+</div>
+<div class="row pie2 justify-content-center p-1">
+  <div class="col-2 col-md-1">
+    <img src="img/twitter.png" alt="Logo Twitter" class="img-fluid" />
+  </div>
+  <div class="col-2 col-md-1">
+    <img src="img/facebook.png" alt="Logo Facebook" class="img-fluid" />
+  </div>
+  <div class="col-2 col-md-1">
+    <img src="img/youtube.png" alt="Logo Youtube" class="img-fluid" />
+  </div>
+</div>
+
+
+    </div>
+
+      
+      
+      
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+   </body>
+</html>
